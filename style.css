@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+}
+
+/* HEADING */
+.header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    min-height: 56px;
+    transition: min-height 0.3s;
+}
+
+.header_inner {
+    display: inline-flex;
+}
+
+.header_logo {
+    height: 72px;
+    margin: 1em;
+    vertical-align: top;
+}
+
+.header_title {
+    float: right;
+    text-align: right;
+    margin: 0.25em 1em;
+    max-width: 50%;
+    color: gray;
+}
+
+.header_title h1{
+    font-weight: 100;
+    font-size: 1.8em;
+    margin-bottom: 0.05em;
+}
+
+.header_title p {
+    font-weight: 300;
+}
+
+
+.container h2{
+    font-weight: 100;
+    font-size: 24px;
+    color: #bcbbbb;
+}
+
+.main {
+    margin-bottom: 10px;
+}
+
+.features h3{
+    text-align: center;
+    font-weight: 200;
+    margin: 10px 0 0;    
+}
+
+.features p{
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 42px;
+}
+
+.features a{
+    color: #bcbbbb;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 320px) {
+    .header_logo {
+        height: 52px;
+    }
+    .header_title h1{
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .header_title h1{
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .header_title h1{
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 599px) {
+    .header_title {
+        margin: 1em;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .header_title h1{
+        font-size: 2.7em;
+    }
+}
+
+
